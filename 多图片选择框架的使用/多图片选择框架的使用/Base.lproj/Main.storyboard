@@ -38,13 +38,22 @@
                                     <constraint firstAttribute="width" constant="240" id="uQa-sW-ptM"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oVs-Ae-37t">
+                                <rect key="frame" x="121" y="285" width="135" height="30"/>
+                                <state key="normal" title="第三方选择多张照片"/>
+                                <connections>
+                                    <action selector="pickMultiPhotos:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aDZ-Sz-vcf"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="YJF-2W-orr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="FzH-He-4u6"/>
+                            <constraint firstItem="oVs-Ae-37t" firstAttribute="centerX" secondItem="YJF-2W-orr" secondAttribute="centerX" id="INJ-Pc-qbG"/>
                             <constraint firstItem="eoV-jW-A90" firstAttribute="centerX" secondItem="YJF-2W-orr" secondAttribute="centerX" id="LTh-JU-1RP"/>
                             <constraint firstItem="eoV-jW-A90" firstAttribute="top" secondItem="YJF-2W-orr" secondAttribute="bottom" constant="61" id="Or7-62-IYs"/>
                             <constraint firstItem="mQj-LQ-iq7" firstAttribute="centerX" secondItem="YJF-2W-orr" secondAttribute="centerX" id="Zie-gL-cix"/>
+                            <constraint firstItem="oVs-Ae-37t" firstAttribute="top" secondItem="YJF-2W-orr" secondAttribute="bottom" constant="17" id="b7o-Mo-uPF"/>
                             <constraint firstItem="mQj-LQ-iq7" firstAttribute="top" secondItem="YJF-2W-orr" secondAttribute="bottom" constant="116" id="mp7-1j-9jP"/>
                             <constraint firstItem="YJF-2W-orr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="x4G-ml-Hjl"/>
                         </constraints>

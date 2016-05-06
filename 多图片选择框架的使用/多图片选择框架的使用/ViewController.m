@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "GetPhotoViewController.h"
+#import "MultiPickerViewController.h"
 
 #import <Photos/Photos.h>
 
@@ -25,6 +26,12 @@
 
 #pragma mark - UI交互
 #pragma mark -
+
+- (IBAction)pickMultiPhotos:(id)sender {
+    MultiPickerViewController *multiPickerVc = [[MultiPickerViewController alloc] init];
+    [self presentViewController:multiPickerVc animated:YES completion:nil];
+}
+
 
 - (IBAction)gotoGetPhotoVc:(id)sender {
     GetPhotoViewController *getPhotoVc = [[GetPhotoViewController alloc] init];
