@@ -1,0 +1,885 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A06FB6E21CDC484B00B01254 /* GetPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06FB6E01CDC484B00B01254 /* GetPhotoViewController.m */; };
+		A06FB6E31CDC484B00B01254 /* GetPhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A06FB6E11CDC484B00B01254 /* GetPhotoViewController.xib */; };
+		A0C5435F1CD9C3C900445744 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C5435E1CD9C3C900445744 /* main.m */; };
+		A0C543621CD9C3C900445744 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543611CD9C3C900445744 /* AppDelegate.m */; };
+		A0C543651CD9C3C900445744 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543641CD9C3C900445744 /* ViewController.m */; };
+		A0C543681CD9C3C900445744 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C543661CD9C3C900445744 /* Main.storyboard */; };
+		A0C5436A1CD9C3C900445744 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0C543691CD9C3C900445744 /* Assets.xcassets */; };
+		A0C5436D1CD9C3C900445744 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C5436B1CD9C3C900445744 /* LaunchScreen.storyboard */; };
+		A0C543781CD9C3C900445744 /* __________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543771CD9C3C900445744 /* __________Tests.m */; };
+		A0C543831CD9C3C900445744 /* __________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543821CD9C3C900445744 /* __________UITests.m */; };
+		A0C5439B1CD9CA8500445744 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543931CD9CA8500445744 /* ALView+PureLayout.m */; };
+		A0C5439C1CD9CA8500445744 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543951CD9CA8500445744 /* NSArray+PureLayout.m */; };
+		A0C5439D1CD9CA8500445744 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543971CD9CA8500445744 /* NSLayoutConstraint+PureLayout.m */; };
+		A0C544001CD9CAA400445744 /* NSBundle+CTAssetsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543A31CD9CAA400445744 /* NSBundle+CTAssetsPickerController.m */; };
+		A0C544011CD9CAA400445744 /* NSDateFormatter+CTAssetsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543A51CD9CAA400445744 /* NSDateFormatter+CTAssetsPickerController.m */; };
+		A0C544021CD9CAA400445744 /* NSIndexSet+CTAssetsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543A71CD9CAA400445744 /* NSIndexSet+CTAssetsPickerController.m */; };
+		A0C544031CD9CAA400445744 /* NSNumberFormatter+CTAssetsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543A91CD9CAA400445744 /* NSNumberFormatter+CTAssetsPickerController.m */; };
+		A0C544041CD9CAA400445744 /* PHAsset+CTAssetsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543AB1CD9CAA400445744 /* PHAsset+CTAssetsPickerController.m */; };
+		A0C544051CD9CAA400445744 /* PHAssetCollection+CTAssetsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543AD1CD9CAA400445744 /* PHAssetCollection+CTAssetsPickerController.m */; };
+		A0C544061CD9CAA400445744 /* PHImageManager+CTAssetsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543AF1CD9CAA400445744 /* PHImageManager+CTAssetsPickerController.m */; };
+		A0C544071CD9CAA400445744 /* UICollectionView+CTAssetsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543B11CD9CAA400445744 /* UICollectionView+CTAssetsPickerController.m */; };
+		A0C544081CD9CAA400445744 /* UIImage+CTAssetsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543B31CD9CAA400445744 /* UIImage+CTAssetsPickerController.m */; };
+		A0C544091CD9CAA400445744 /* CTAssetCheckmark.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543B51CD9CAA400445744 /* CTAssetCheckmark.m */; };
+		A0C5440A1CD9CAA400445744 /* CTAssetCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543B71CD9CAA400445744 /* CTAssetCollectionViewCell.m */; };
+		A0C5440B1CD9CAA400445744 /* CTAssetCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543B91CD9CAA400445744 /* CTAssetCollectionViewController.m */; };
+		A0C5440C1CD9CAA400445744 /* CTAssetItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543BB1CD9CAA400445744 /* CTAssetItemViewController.m */; };
+		A0C5440D1CD9CAA400445744 /* CTAssetPlayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543BD1CD9CAA400445744 /* CTAssetPlayButton.m */; };
+		A0C5440E1CD9CAA400445744 /* CTAssetScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543BF1CD9CAA400445744 /* CTAssetScrollView.m */; };
+		A0C5440F1CD9CAA400445744 /* CTAssetSelectionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543C11CD9CAA400445744 /* CTAssetSelectionButton.m */; };
+		A0C544101CD9CAA400445744 /* CTAssetSelectionLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543C31CD9CAA400445744 /* CTAssetSelectionLabel.m */; };
+		A0C544111CD9CAA400445744 /* CTAssetsGridSelectedView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543C51CD9CAA400445744 /* CTAssetsGridSelectedView.m */; };
+		A0C544121CD9CAA400445744 /* CTAssetsGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543C71CD9CAA400445744 /* CTAssetsGridView.m */; };
+		A0C544131CD9CAA400445744 /* CTAssetsGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543C91CD9CAA400445744 /* CTAssetsGridViewCell.m */; };
+		A0C544141CD9CAA400445744 /* CTAssetsGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543CB1CD9CAA400445744 /* CTAssetsGridViewController.m */; };
+		A0C544151CD9CAA400445744 /* CTAssetsGridViewFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543CD1CD9CAA400445744 /* CTAssetsGridViewFooter.m */; };
+		A0C544161CD9CAA400445744 /* CTAssetsGridViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543CF1CD9CAA400445744 /* CTAssetsGridViewLayout.m */; };
+		A0C544171CD9CAA400445744 /* CTAssetsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543D11CD9CAA400445744 /* CTAssetsNavigationController.m */; };
+		A0C544181CD9CAA400445744 /* CTAssetsPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543D31CD9CAA400445744 /* CTAssetsPageView.m */; };
+		A0C544191CD9CAA400445744 /* CTAssetsPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543D51CD9CAA400445744 /* CTAssetsPageViewController.m */; };
+		A0C5441A1CD9CAA400445744 /* CTAssetsPickerAccessDeniedView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543D71CD9CAA400445744 /* CTAssetsPickerAccessDeniedView.m */; };
+		A0C5441B1CD9CAA400445744 /* CTAssetsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543D91CD9CAA400445744 /* CTAssetsPickerController.m */; };
+		A0C5441C1CD9CAA400445744 /* CTAssetsPickerNoAssetsView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543DC1CD9CAA400445744 /* CTAssetsPickerNoAssetsView.m */; };
+		A0C5441D1CD9CAA400445744 /* CTAssetsViewControllerTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543DE1CD9CAA400445744 /* CTAssetsViewControllerTransition.m */; };
+		A0C5441E1CD9CAA400445744 /* CTAssetThumbnailOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543E01CD9CAA400445744 /* CTAssetThumbnailOverlay.m */; };
+		A0C5441F1CD9CAA400445744 /* CTAssetThumbnailStacks.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543E21CD9CAA400445744 /* CTAssetThumbnailStacks.m */; };
+		A0C544201CD9CAA400445744 /* CTAssetThumbnailView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543E41CD9CAA400445744 /* CTAssetThumbnailView.m */; };
+		A0C544211CD9CAA400445744 /* CTAssetsPicker.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0C543E61CD9CAA400445744 /* CTAssetsPicker.strings */; };
+		A0C544221CD9CAA400445744 /* CTAssetsPicker.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0C543E81CD9CAA400445744 /* CTAssetsPicker.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0C543741CD9C3C900445744 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0C543521CD9C3C900445744 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0C543591CD9C3C900445744;
+			remoteInfo = "多图片选择框架的使用";
+		};
+		A0C5437F1CD9C3C900445744 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0C543521CD9C3C900445744 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0C543591CD9C3C900445744;
+			remoteInfo = "多图片选择框架的使用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A06FB6DF1CDC484B00B01254 /* GetPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetPhotoViewController.h; sourceTree = "<group>"; };
+		A06FB6E01CDC484B00B01254 /* GetPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetPhotoViewController.m; sourceTree = "<group>"; };
+		A06FB6E11CDC484B00B01254 /* GetPhotoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GetPhotoViewController.xib; sourceTree = "<group>"; };
+		A0C5435A1CD9C3C900445744 /* 多图片选择框架的使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "多图片选择框架的使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C5435E1CD9C3C900445744 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0C543601CD9C3C900445744 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A0C543611CD9C3C900445744 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A0C543631CD9C3C900445744 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A0C543641CD9C3C900445744 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A0C543671CD9C3C900445744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0C543691CD9C3C900445744 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0C5436C1CD9C3C900445744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0C5436E1CD9C3C900445744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0C543731CD9C3C900445744 /* 多图片选择框架的使用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "多图片选择框架的使用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C543771CD9C3C900445744 /* __________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__________Tests.m"; sourceTree = "<group>"; };
+		A0C543791CD9C3C900445744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0C5437E1CD9C3C900445744 /* 多图片选择框架的使用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "多图片选择框架的使用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C543821CD9C3C900445744 /* __________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__________UITests.m"; sourceTree = "<group>"; };
+		A0C543841CD9C3C900445744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0C543921CD9CA8500445744 /* ALView+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALView+PureLayout.h"; sourceTree = "<group>"; };
+		A0C543931CD9CA8500445744 /* ALView+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALView+PureLayout.m"; sourceTree = "<group>"; };
+		A0C543941CD9CA8500445744 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		A0C543951CD9CA8500445744 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		A0C543961CD9CA8500445744 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		A0C543971CD9CA8500445744 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		A0C543981CD9CA8500445744 /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
+		A0C543991CD9CA8500445744 /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
+		A0C5439A1CD9CA8500445744 /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
+		A0C543A01CD9CAA400445744 /* CTAssetsPageViewController+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTAssetsPageViewController+Internal.h"; sourceTree = "<group>"; };
+		A0C543A11CD9CAA400445744 /* CTAssetsPickerController+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTAssetsPickerController+Internal.h"; sourceTree = "<group>"; };
+		A0C543A21CD9CAA400445744 /* NSBundle+CTAssetsPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+CTAssetsPickerController.h"; sourceTree = "<group>"; };
+		A0C543A31CD9CAA400445744 /* NSBundle+CTAssetsPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+CTAssetsPickerController.m"; sourceTree = "<group>"; };
+		A0C543A41CD9CAA400445744 /* NSDateFormatter+CTAssetsPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+CTAssetsPickerController.h"; sourceTree = "<group>"; };
+		A0C543A51CD9CAA400445744 /* NSDateFormatter+CTAssetsPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+CTAssetsPickerController.m"; sourceTree = "<group>"; };
+		A0C543A61CD9CAA400445744 /* NSIndexSet+CTAssetsPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSIndexSet+CTAssetsPickerController.h"; sourceTree = "<group>"; };
+		A0C543A71CD9CAA400445744 /* NSIndexSet+CTAssetsPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSIndexSet+CTAssetsPickerController.m"; sourceTree = "<group>"; };
+		A0C543A81CD9CAA400445744 /* NSNumberFormatter+CTAssetsPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumberFormatter+CTAssetsPickerController.h"; sourceTree = "<group>"; };
+		A0C543A91CD9CAA400445744 /* NSNumberFormatter+CTAssetsPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumberFormatter+CTAssetsPickerController.m"; sourceTree = "<group>"; };
+		A0C543AA1CD9CAA400445744 /* PHAsset+CTAssetsPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PHAsset+CTAssetsPickerController.h"; sourceTree = "<group>"; };
+		A0C543AB1CD9CAA400445744 /* PHAsset+CTAssetsPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PHAsset+CTAssetsPickerController.m"; sourceTree = "<group>"; };
+		A0C543AC1CD9CAA400445744 /* PHAssetCollection+CTAssetsPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PHAssetCollection+CTAssetsPickerController.h"; sourceTree = "<group>"; };
+		A0C543AD1CD9CAA400445744 /* PHAssetCollection+CTAssetsPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PHAssetCollection+CTAssetsPickerController.m"; sourceTree = "<group>"; };
+		A0C543AE1CD9CAA400445744 /* PHImageManager+CTAssetsPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PHImageManager+CTAssetsPickerController.h"; sourceTree = "<group>"; };
+		A0C543AF1CD9CAA400445744 /* PHImageManager+CTAssetsPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PHImageManager+CTAssetsPickerController.m"; sourceTree = "<group>"; };
+		A0C543B01CD9CAA400445744 /* UICollectionView+CTAssetsPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+CTAssetsPickerController.h"; sourceTree = "<group>"; };
+		A0C543B11CD9CAA400445744 /* UICollectionView+CTAssetsPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+CTAssetsPickerController.m"; sourceTree = "<group>"; };
+		A0C543B21CD9CAA400445744 /* UIImage+CTAssetsPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CTAssetsPickerController.h"; sourceTree = "<group>"; };
+		A0C543B31CD9CAA400445744 /* UIImage+CTAssetsPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CTAssetsPickerController.m"; sourceTree = "<group>"; };
+		A0C543B41CD9CAA400445744 /* CTAssetCheckmark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetCheckmark.h; sourceTree = "<group>"; };
+		A0C543B51CD9CAA400445744 /* CTAssetCheckmark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAssetCheckmark.m; sourceTree = "<group>"; };
+		A0C543B61CD9CAA400445744 /* CTAssetCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetCollectionViewCell.h; sourceTree = "<group>"; };
+		A0C543B71CD9CAA400445744 /* CTAssetCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAssetCollectionViewCell.m; sourceTree = "<group>"; };
+		A0C543B81CD9CAA400445744 /* CTAssetCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetCollectionViewController.h; sourceTree = "<group>"; };
+		A0C543B91CD9CAA400445744 /* CTAssetCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAssetCollectionViewController.m; sourceTree = "<group>"; };
+		A0C543BA1CD9CAA400445744 /* CTAssetItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetItemViewController.h; sourceTree = "<group>"; };
+		A0C543BB1CD9CAA400445744 /* CTAssetItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAssetItemViewController.m; sourceTree = "<group>"; };
+		A0C543BC1CD9CAA400445744 /* CTAssetPlayButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetPlayButton.h; sourceTree = "<group>"; };
+		A0C543BD1CD9CAA400445744 /* CTAssetPlayButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAssetPlayButton.m; sourceTree = "<group>"; };
+		A0C543BE1CD9CAA400445744 /* CTAssetScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetScrollView.h; sourceTree = "<group>"; };
+		A0C543BF1CD9CAA400445744 /* CTAssetScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAssetScrollView.m; sourceTree = "<group>"; };
+		A0C543C01CD9CAA400445744 /* CTAssetSelectionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetSelectionButton.h; sourceTree = "<group>"; };
+		A0C543C11CD9CAA400445744 /* CTAssetSelectionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAssetSelectionButton.m; sourceTree = "<group>"; };
+		A0C543C21CD9CAA400445744 /* CTAssetSelectionLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetSelectionLabel.h; sourceTree = "<group>"; };
+		A0C543C31CD9CAA400445744 /* CTAssetSelectionLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAssetSelectionLabel.m; sourceTree = "<group>"; };
+		A0C543C41CD9CAA400445744 /* CTAssetsGridSelectedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetsGridSelectedView.h; sourceTree = "<group>"; };
+		A0C543C51CD9CAA400445744 /* CTAssetsGridSelectedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAssetsGridSelectedView.m; sourceTree = "<group>"; };
+		A0C543C61CD9CAA400445744 /* CTAssetsGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetsGridView.h; sourceTree = "<group>"; };
+		A0C543C71CD9CAA400445744 /* CTAssetsGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAssetsGridView.m; sourceTree = "<group>"; };
+		A0C543C81CD9CAA400445744 /* CTAssetsGridViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetsGridViewCell.h; sourceTree = "<group>"; };
+		A0C543C91CD9CAA400445744 /* CTAssetsGridViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAssetsGridViewCell.m; sourceTree = "<group>"; };
+		A0C543CA1CD9CAA400445744 /* CTAssetsGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetsGridViewController.h; sourceTree = "<group>"; };
+		A0C543CB1CD9CAA400445744 /* CTAssetsGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAssetsGridViewController.m; sourceTree = "<group>"; };
+		A0C543CC1CD9CAA400445744 /* CTAssetsGridViewFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetsGridViewFooter.h; sourceTree = "<group>"; };
+		A0C543CD1CD9CAA400445744 /* CTAssetsGridViewFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAssetsGridViewFooter.m; sourceTree = "<group>"; };
+		A0C543CE1CD9CAA400445744 /* CTAssetsGridViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetsGridViewLayout.h; sourceTree = "<group>"; };
+		A0C543CF1CD9CAA400445744 /* CTAssetsGridViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAssetsGridViewLayout.m; sourceTree = "<group>"; };
+		A0C543D01CD9CAA400445744 /* CTAssetsNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetsNavigationController.h; sourceTree = "<group>"; };
+		A0C543D11CD9CAA400445744 /* CTAssetsNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAssetsNavigationController.m; sourceTree = "<group>"; };
+		A0C543D21CD9CAA400445744 /* CTAssetsPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetsPageView.h; sourceTree = "<group>"; };
+		A0C543D31CD9CAA400445744 /* CTAssetsPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAssetsPageView.m; sourceTree = "<group>"; };
+		A0C543D41CD9CAA400445744 /* CTAssetsPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetsPageViewController.h; sourceTree = "<group>"; };
+		A0C543D51CD9CAA400445744 /* CTAssetsPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAssetsPageViewController.m; sourceTree = "<group>"; };
+		A0C543D61CD9CAA400445744 /* CTAssetsPickerAccessDeniedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetsPickerAccessDeniedView.h; sourceTree = "<group>"; };
+		A0C543D71CD9CAA400445744 /* CTAssetsPickerAccessDeniedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAssetsPickerAccessDeniedView.m; sourceTree = "<group>"; };
+		A0C543D81CD9CAA400445744 /* CTAssetsPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetsPickerController.h; sourceTree = "<group>"; };
+		A0C543D91CD9CAA400445744 /* CTAssetsPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAssetsPickerController.m; sourceTree = "<group>"; };
+		A0C543DA1CD9CAA400445744 /* CTAssetsPickerDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetsPickerDefines.h; sourceTree = "<group>"; };
+		A0C543DB1CD9CAA400445744 /* CTAssetsPickerNoAssetsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetsPickerNoAssetsView.h; sourceTree = "<group>"; };
+		A0C543DC1CD9CAA400445744 /* CTAssetsPickerNoAssetsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAssetsPickerNoAssetsView.m; sourceTree = "<group>"; };
+		A0C543DD1CD9CAA400445744 /* CTAssetsViewControllerTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetsViewControllerTransition.h; sourceTree = "<group>"; };
+		A0C543DE1CD9CAA400445744 /* CTAssetsViewControllerTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAssetsViewControllerTransition.m; sourceTree = "<group>"; };
+		A0C543DF1CD9CAA400445744 /* CTAssetThumbnailOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetThumbnailOverlay.h; sourceTree = "<group>"; };
+		A0C543E01CD9CAA400445744 /* CTAssetThumbnailOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAssetThumbnailOverlay.m; sourceTree = "<group>"; };
+		A0C543E11CD9CAA400445744 /* CTAssetThumbnailStacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetThumbnailStacks.h; sourceTree = "<group>"; };
+		A0C543E21CD9CAA400445744 /* CTAssetThumbnailStacks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAssetThumbnailStacks.m; sourceTree = "<group>"; };
+		A0C543E31CD9CAA400445744 /* CTAssetThumbnailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetThumbnailView.h; sourceTree = "<group>"; };
+		A0C543E41CD9CAA400445744 /* CTAssetThumbnailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAssetThumbnailView.m; sourceTree = "<group>"; };
+		A0C543E71CD9CAA400445744 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/CTAssetsPicker.strings; sourceTree = "<group>"; };
+		A0C543E81CD9CAA400445744 /* CTAssetsPicker.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CTAssetsPicker.xcassets; sourceTree = "<group>"; };
+		A0C543E91CD9CAA400445744 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/CTAssetsPicker.strings; sourceTree = "<group>"; };
+		A0C543EA1CD9CAA400445744 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/CTAssetsPicker.strings; sourceTree = "<group>"; };
+		A0C543EB1CD9CAA400445744 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/CTAssetsPicker.strings; sourceTree = "<group>"; };
+		A0C543EC1CD9CAA400445744 /* es-MX */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-MX"; path = "es-MX.lproj/CTAssetsPicker.strings"; sourceTree = "<group>"; };
+		A0C543ED1CD9CAA400445744 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/CTAssetsPicker.strings; sourceTree = "<group>"; };
+		A0C543EE1CD9CAA400445744 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/CTAssetsPicker.strings; sourceTree = "<group>"; };
+		A0C543EF1CD9CAA400445744 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/CTAssetsPicker.strings; sourceTree = "<group>"; };
+		A0C543F01CD9CAA400445744 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/CTAssetsPicker.strings; sourceTree = "<group>"; };
+		A0C543F11CD9CAA400445744 /* hi-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hi-IN"; path = "hi-IN.lproj/CTAssetsPicker.strings"; sourceTree = "<group>"; };
+		A0C543F21CD9CAA400445744 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/CTAssetsPicker.strings; sourceTree = "<group>"; };
+		A0C543F31CD9CAA400445744 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/CTAssetsPicker.strings; sourceTree = "<group>"; };
+		A0C543F41CD9CAA400445744 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/CTAssetsPicker.strings; sourceTree = "<group>"; };
+		A0C543F51CD9CAA400445744 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/CTAssetsPicker.strings; sourceTree = "<group>"; };
+		A0C543F61CD9CAA400445744 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/CTAssetsPicker.strings; sourceTree = "<group>"; };
+		A0C543F71CD9CAA400445744 /* nl-NL */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "nl-NL"; path = "nl-NL.lproj/CTAssetsPicker.strings"; sourceTree = "<group>"; };
+		A0C543F81CD9CAA400445744 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/CTAssetsPicker.strings; sourceTree = "<group>"; };
+		A0C543F91CD9CAA400445744 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/CTAssetsPicker.strings"; sourceTree = "<group>"; };
+		A0C543FA1CD9CAA400445744 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/CTAssetsPicker.strings; sourceTree = "<group>"; };
+		A0C543FB1CD9CAA400445744 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/CTAssetsPicker.strings; sourceTree = "<group>"; };
+		A0C543FC1CD9CAA400445744 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/CTAssetsPicker.strings; sourceTree = "<group>"; };
+		A0C543FD1CD9CAA400445744 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/CTAssetsPicker.strings; sourceTree = "<group>"; };
+		A0C543FE1CD9CAA400445744 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/CTAssetsPicker.strings"; sourceTree = "<group>"; };
+		A0C543FF1CD9CAA400445744 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/CTAssetsPicker.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0C543571CD9C3C900445744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C543701CD9C3C900445744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C5437B1CD9C3C900445744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0C543511CD9C3C900445744 = {
+			isa = PBXGroup;
+			children = (
+				A0C5435C1CD9C3C900445744 /* 多图片选择框架的使用 */,
+				A0C543761CD9C3C900445744 /* 多图片选择框架的使用Tests */,
+				A0C543811CD9C3C900445744 /* 多图片选择框架的使用UITests */,
+				A0C5435B1CD9C3C900445744 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0C5435B1CD9C3C900445744 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0C5435A1CD9C3C900445744 /* 多图片选择框架的使用.app */,
+				A0C543731CD9C3C900445744 /* 多图片选择框架的使用Tests.xctest */,
+				A0C5437E1CD9C3C900445744 /* 多图片选择框架的使用UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0C5435C1CD9C3C900445744 /* 多图片选择框架的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				A0C543901CD9CA7D00445744 /* lib */,
+				A0C543601CD9C3C900445744 /* AppDelegate.h */,
+				A0C543611CD9C3C900445744 /* AppDelegate.m */,
+				A0C543631CD9C3C900445744 /* ViewController.h */,
+				A0C543641CD9C3C900445744 /* ViewController.m */,
+				A0C543661CD9C3C900445744 /* Main.storyboard */,
+				A06FB6DF1CDC484B00B01254 /* GetPhotoViewController.h */,
+				A06FB6E01CDC484B00B01254 /* GetPhotoViewController.m */,
+				A06FB6E11CDC484B00B01254 /* GetPhotoViewController.xib */,
+				A0C543691CD9C3C900445744 /* Assets.xcassets */,
+				A0C5436B1CD9C3C900445744 /* LaunchScreen.storyboard */,
+				A0C5436E1CD9C3C900445744 /* Info.plist */,
+				A0C5435D1CD9C3C900445744 /* Supporting Files */,
+			);
+			path = "多图片选择框架的使用";
+			sourceTree = "<group>";
+		};
+		A0C5435D1CD9C3C900445744 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0C5435E1CD9C3C900445744 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0C543761CD9C3C900445744 /* 多图片选择框架的使用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A0C543771CD9C3C900445744 /* __________Tests.m */,
+				A0C543791CD9C3C900445744 /* Info.plist */,
+			);
+			path = "多图片选择框架的使用Tests";
+			sourceTree = "<group>";
+		};
+		A0C543811CD9C3C900445744 /* 多图片选择框架的使用UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0C543821CD9C3C900445744 /* __________UITests.m */,
+				A0C543841CD9C3C900445744 /* Info.plist */,
+			);
+			path = "多图片选择框架的使用UITests";
+			sourceTree = "<group>";
+		};
+		A0C543901CD9CA7D00445744 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				A0C5439E1CD9CAA400445744 /* CTAssetsPickerController */,
+				A0C543911CD9CA8500445744 /* PureLayout */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		A0C543911CD9CA8500445744 /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				A0C543921CD9CA8500445744 /* ALView+PureLayout.h */,
+				A0C543931CD9CA8500445744 /* ALView+PureLayout.m */,
+				A0C543941CD9CA8500445744 /* NSArray+PureLayout.h */,
+				A0C543951CD9CA8500445744 /* NSArray+PureLayout.m */,
+				A0C543961CD9CA8500445744 /* NSLayoutConstraint+PureLayout.h */,
+				A0C543971CD9CA8500445744 /* NSLayoutConstraint+PureLayout.m */,
+				A0C543981CD9CA8500445744 /* PureLayout+Internal.h */,
+				A0C543991CD9CA8500445744 /* PureLayout.h */,
+				A0C5439A1CD9CA8500445744 /* PureLayoutDefines.h */,
+			);
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+		A0C5439E1CD9CAA400445744 /* CTAssetsPickerController */ = {
+			isa = PBXGroup;
+			children = (
+				A0C5439F1CD9CAA400445744 /* Categories */,
+				A0C543B41CD9CAA400445744 /* CTAssetCheckmark.h */,
+				A0C543B51CD9CAA400445744 /* CTAssetCheckmark.m */,
+				A0C543B61CD9CAA400445744 /* CTAssetCollectionViewCell.h */,
+				A0C543B71CD9CAA400445744 /* CTAssetCollectionViewCell.m */,
+				A0C543B81CD9CAA400445744 /* CTAssetCollectionViewController.h */,
+				A0C543B91CD9CAA400445744 /* CTAssetCollectionViewController.m */,
+				A0C543BA1CD9CAA400445744 /* CTAssetItemViewController.h */,
+				A0C543BB1CD9CAA400445744 /* CTAssetItemViewController.m */,
+				A0C543BC1CD9CAA400445744 /* CTAssetPlayButton.h */,
+				A0C543BD1CD9CAA400445744 /* CTAssetPlayButton.m */,
+				A0C543BE1CD9CAA400445744 /* CTAssetScrollView.h */,
+				A0C543BF1CD9CAA400445744 /* CTAssetScrollView.m */,
+				A0C543C01CD9CAA400445744 /* CTAssetSelectionButton.h */,
+				A0C543C11CD9CAA400445744 /* CTAssetSelectionButton.m */,
+				A0C543C21CD9CAA400445744 /* CTAssetSelectionLabel.h */,
+				A0C543C31CD9CAA400445744 /* CTAssetSelectionLabel.m */,
+				A0C543C41CD9CAA400445744 /* CTAssetsGridSelectedView.h */,
+				A0C543C51CD9CAA400445744 /* CTAssetsGridSelectedView.m */,
+				A0C543C61CD9CAA400445744 /* CTAssetsGridView.h */,
+				A0C543C71CD9CAA400445744 /* CTAssetsGridView.m */,
+				A0C543C81CD9CAA400445744 /* CTAssetsGridViewCell.h */,
+				A0C543C91CD9CAA400445744 /* CTAssetsGridViewCell.m */,
+				A0C543CA1CD9CAA400445744 /* CTAssetsGridViewController.h */,
+				A0C543CB1CD9CAA400445744 /* CTAssetsGridViewController.m */,
+				A0C543CC1CD9CAA400445744 /* CTAssetsGridViewFooter.h */,
+				A0C543CD1CD9CAA400445744 /* CTAssetsGridViewFooter.m */,
+				A0C543CE1CD9CAA400445744 /* CTAssetsGridViewLayout.h */,
+				A0C543CF1CD9CAA400445744 /* CTAssetsGridViewLayout.m */,
+				A0C543D01CD9CAA400445744 /* CTAssetsNavigationController.h */,
+				A0C543D11CD9CAA400445744 /* CTAssetsNavigationController.m */,
+				A0C543D21CD9CAA400445744 /* CTAssetsPageView.h */,
+				A0C543D31CD9CAA400445744 /* CTAssetsPageView.m */,
+				A0C543D41CD9CAA400445744 /* CTAssetsPageViewController.h */,
+				A0C543D51CD9CAA400445744 /* CTAssetsPageViewController.m */,
+				A0C543D61CD9CAA400445744 /* CTAssetsPickerAccessDeniedView.h */,
+				A0C543D71CD9CAA400445744 /* CTAssetsPickerAccessDeniedView.m */,
+				A0C543D81CD9CAA400445744 /* CTAssetsPickerController.h */,
+				A0C543D91CD9CAA400445744 /* CTAssetsPickerController.m */,
+				A0C543DA1CD9CAA400445744 /* CTAssetsPickerDefines.h */,
+				A0C543DB1CD9CAA400445744 /* CTAssetsPickerNoAssetsView.h */,
+				A0C543DC1CD9CAA400445744 /* CTAssetsPickerNoAssetsView.m */,
+				A0C543DD1CD9CAA400445744 /* CTAssetsViewControllerTransition.h */,
+				A0C543DE1CD9CAA400445744 /* CTAssetsViewControllerTransition.m */,
+				A0C543DF1CD9CAA400445744 /* CTAssetThumbnailOverlay.h */,
+				A0C543E01CD9CAA400445744 /* CTAssetThumbnailOverlay.m */,
+				A0C543E11CD9CAA400445744 /* CTAssetThumbnailStacks.h */,
+				A0C543E21CD9CAA400445744 /* CTAssetThumbnailStacks.m */,
+				A0C543E31CD9CAA400445744 /* CTAssetThumbnailView.h */,
+				A0C543E41CD9CAA400445744 /* CTAssetThumbnailView.m */,
+				A0C543E51CD9CAA400445744 /* Resources */,
+			);
+			path = CTAssetsPickerController;
+			sourceTree = "<group>";
+		};
+		A0C5439F1CD9CAA400445744 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				A0C543A01CD9CAA400445744 /* CTAssetsPageViewController+Internal.h */,
+				A0C543A11CD9CAA400445744 /* CTAssetsPickerController+Internal.h */,
+				A0C543A21CD9CAA400445744 /* NSBundle+CTAssetsPickerController.h */,
+				A0C543A31CD9CAA400445744 /* NSBundle+CTAssetsPickerController.m */,
+				A0C543A41CD9CAA400445744 /* NSDateFormatter+CTAssetsPickerController.h */,
+				A0C543A51CD9CAA400445744 /* NSDateFormatter+CTAssetsPickerController.m */,
+				A0C543A61CD9CAA400445744 /* NSIndexSet+CTAssetsPickerController.h */,
+				A0C543A71CD9CAA400445744 /* NSIndexSet+CTAssetsPickerController.m */,
+				A0C543A81CD9CAA400445744 /* NSNumberFormatter+CTAssetsPickerController.h */,
+				A0C543A91CD9CAA400445744 /* NSNumberFormatter+CTAssetsPickerController.m */,
+				A0C543AA1CD9CAA400445744 /* PHAsset+CTAssetsPickerController.h */,
+				A0C543AB1CD9CAA400445744 /* PHAsset+CTAssetsPickerController.m */,
+				A0C543AC1CD9CAA400445744 /* PHAssetCollection+CTAssetsPickerController.h */,
+				A0C543AD1CD9CAA400445744 /* PHAssetCollection+CTAssetsPickerController.m */,
+				A0C543AE1CD9CAA400445744 /* PHImageManager+CTAssetsPickerController.h */,
+				A0C543AF1CD9CAA400445744 /* PHImageManager+CTAssetsPickerController.m */,
+				A0C543B01CD9CAA400445744 /* UICollectionView+CTAssetsPickerController.h */,
+				A0C543B11CD9CAA400445744 /* UICollectionView+CTAssetsPickerController.m */,
+				A0C543B21CD9CAA400445744 /* UIImage+CTAssetsPickerController.h */,
+				A0C543B31CD9CAA400445744 /* UIImage+CTAssetsPickerController.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		A0C543E51CD9CAA400445744 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A0C543E61CD9CAA400445744 /* CTAssetsPicker.strings */,
+				A0C543E81CD9CAA400445744 /* CTAssetsPicker.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0C543591CD9C3C900445744 /* 多图片选择框架的使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0C543871CD9C3C900445744 /* Build configuration list for PBXNativeTarget "多图片选择框架的使用" */;
+			buildPhases = (
+				A0C543561CD9C3C900445744 /* Sources */,
+				A0C543571CD9C3C900445744 /* Frameworks */,
+				A0C543581CD9C3C900445744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "多图片选择框架的使用";
+			productName = "多图片选择框架的使用";
+			productReference = A0C5435A1CD9C3C900445744 /* 多图片选择框架的使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0C543721CD9C3C900445744 /* 多图片选择框架的使用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0C5438A1CD9C3C900445744 /* Build configuration list for PBXNativeTarget "多图片选择框架的使用Tests" */;
+			buildPhases = (
+				A0C5436F1CD9C3C900445744 /* Sources */,
+				A0C543701CD9C3C900445744 /* Frameworks */,
+				A0C543711CD9C3C900445744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0C543751CD9C3C900445744 /* PBXTargetDependency */,
+			);
+			name = "多图片选择框架的使用Tests";
+			productName = "多图片选择框架的使用Tests";
+			productReference = A0C543731CD9C3C900445744 /* 多图片选择框架的使用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0C5437D1CD9C3C900445744 /* 多图片选择框架的使用UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0C5438D1CD9C3C900445744 /* Build configuration list for PBXNativeTarget "多图片选择框架的使用UITests" */;
+			buildPhases = (
+				A0C5437A1CD9C3C900445744 /* Sources */,
+				A0C5437B1CD9C3C900445744 /* Frameworks */,
+				A0C5437C1CD9C3C900445744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0C543801CD9C3C900445744 /* PBXTargetDependency */,
+			);
+			name = "多图片选择框架的使用UITests";
+			productName = "多图片选择框架的使用UITests";
+			productReference = A0C5437E1CD9C3C900445744 /* 多图片选择框架的使用UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0C543521CD9C3C900445744 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = IFengXY;
+				TargetAttributes = {
+					A0C543591CD9C3C900445744 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					A0C543721CD9C3C900445744 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A0C543591CD9C3C900445744;
+					};
+					A0C5437D1CD9C3C900445744 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A0C543591CD9C3C900445744;
+					};
+				};
+			};
+			buildConfigurationList = A0C543551CD9C3C900445744 /* Build configuration list for PBXProject "多图片选择框架的使用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+				da,
+				de,
+				"es-MX",
+				es,
+				fi,
+				fr,
+				he,
+				"hi-IN",
+				hu,
+				id,
+				it,
+				ja,
+				ko,
+				"nl-NL",
+				nl,
+				"pt-PT",
+				pt,
+				ru,
+				sv,
+				tr,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = A0C543511CD9C3C900445744;
+			productRefGroup = A0C5435B1CD9C3C900445744 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0C543591CD9C3C900445744 /* 多图片选择框架的使用 */,
+				A0C543721CD9C3C900445744 /* 多图片选择框架的使用Tests */,
+				A0C5437D1CD9C3C900445744 /* 多图片选择框架的使用UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0C543581CD9C3C900445744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C544221CD9CAA400445744 /* CTAssetsPicker.xcassets in Resources */,
+				A0C5436D1CD9C3C900445744 /* LaunchScreen.storyboard in Resources */,
+				A0C5436A1CD9C3C900445744 /* Assets.xcassets in Resources */,
+				A0C544211CD9CAA400445744 /* CTAssetsPicker.strings in Resources */,
+				A06FB6E31CDC484B00B01254 /* GetPhotoViewController.xib in Resources */,
+				A0C543681CD9C3C900445744 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C543711CD9C3C900445744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C5437C1CD9C3C900445744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0C543561CD9C3C900445744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C543651CD9C3C900445744 /* ViewController.m in Sources */,
+				A0C5441A1CD9CAA400445744 /* CTAssetsPickerAccessDeniedView.m in Sources */,
+				A0C544151CD9CAA400445744 /* CTAssetsGridViewFooter.m in Sources */,
+				A0C544111CD9CAA400445744 /* CTAssetsGridSelectedView.m in Sources */,
+				A06FB6E21CDC484B00B01254 /* GetPhotoViewController.m in Sources */,
+				A0C544141CD9CAA400445744 /* CTAssetsGridViewController.m in Sources */,
+				A0C543621CD9C3C900445744 /* AppDelegate.m in Sources */,
+				A0C544121CD9CAA400445744 /* CTAssetsGridView.m in Sources */,
+				A0C544071CD9CAA400445744 /* UICollectionView+CTAssetsPickerController.m in Sources */,
+				A0C544041CD9CAA400445744 /* PHAsset+CTAssetsPickerController.m in Sources */,
+				A0C544001CD9CAA400445744 /* NSBundle+CTAssetsPickerController.m in Sources */,
+				A0C544171CD9CAA400445744 /* CTAssetsNavigationController.m in Sources */,
+				A0C5435F1CD9C3C900445744 /* main.m in Sources */,
+				A0C5440F1CD9CAA400445744 /* CTAssetSelectionButton.m in Sources */,
+				A0C5440B1CD9CAA400445744 /* CTAssetCollectionViewController.m in Sources */,
+				A0C5440D1CD9CAA400445744 /* CTAssetPlayButton.m in Sources */,
+				A0C5439B1CD9CA8500445744 /* ALView+PureLayout.m in Sources */,
+				A0C5440C1CD9CAA400445744 /* CTAssetItemViewController.m in Sources */,
+				A0C5441D1CD9CAA400445744 /* CTAssetsViewControllerTransition.m in Sources */,
+				A0C5441B1CD9CAA400445744 /* CTAssetsPickerController.m in Sources */,
+				A0C544061CD9CAA400445744 /* PHImageManager+CTAssetsPickerController.m in Sources */,
+				A0C5439C1CD9CA8500445744 /* NSArray+PureLayout.m in Sources */,
+				A0C544031CD9CAA400445744 /* NSNumberFormatter+CTAssetsPickerController.m in Sources */,
+				A0C5439D1CD9CA8500445744 /* NSLayoutConstraint+PureLayout.m in Sources */,
+				A0C544161CD9CAA400445744 /* CTAssetsGridViewLayout.m in Sources */,
+				A0C5441E1CD9CAA400445744 /* CTAssetThumbnailOverlay.m in Sources */,
+				A0C5440E1CD9CAA400445744 /* CTAssetScrollView.m in Sources */,
+				A0C544131CD9CAA400445744 /* CTAssetsGridViewCell.m in Sources */,
+				A0C544081CD9CAA400445744 /* UIImage+CTAssetsPickerController.m in Sources */,
+				A0C544021CD9CAA400445744 /* NSIndexSet+CTAssetsPickerController.m in Sources */,
+				A0C544091CD9CAA400445744 /* CTAssetCheckmark.m in Sources */,
+				A0C544201CD9CAA400445744 /* CTAssetThumbnailView.m in Sources */,
+				A0C544051CD9CAA400445744 /* PHAssetCollection+CTAssetsPickerController.m in Sources */,
+				A0C544181CD9CAA400445744 /* CTAssetsPageView.m in Sources */,
+				A0C544101CD9CAA400445744 /* CTAssetSelectionLabel.m in Sources */,
+				A0C544191CD9CAA400445744 /* CTAssetsPageViewController.m in Sources */,
+				A0C5440A1CD9CAA400445744 /* CTAssetCollectionViewCell.m in Sources */,
+				A0C5441F1CD9CAA400445744 /* CTAssetThumbnailStacks.m in Sources */,
+				A0C544011CD9CAA400445744 /* NSDateFormatter+CTAssetsPickerController.m in Sources */,
+				A0C5441C1CD9CAA400445744 /* CTAssetsPickerNoAssetsView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C5436F1CD9C3C900445744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C543781CD9C3C900445744 /* __________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C5437A1CD9C3C900445744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C543831CD9C3C900445744 /* __________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0C543751CD9C3C900445744 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0C543591CD9C3C900445744 /* 多图片选择框架的使用 */;
+			targetProxy = A0C543741CD9C3C900445744 /* PBXContainerItemProxy */;
+		};
+		A0C543801CD9C3C900445744 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0C543591CD9C3C900445744 /* 多图片选择框架的使用 */;
+			targetProxy = A0C5437F1CD9C3C900445744 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0C543661CD9C3C900445744 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0C543671CD9C3C900445744 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0C5436B1CD9C3C900445744 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0C5436C1CD9C3C900445744 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A0C543E61CD9CAA400445744 /* CTAssetsPicker.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0C543E71CD9CAA400445744 /* ar */,
+				A0C543E91CD9CAA400445744 /* da */,
+				A0C543EA1CD9CAA400445744 /* de */,
+				A0C543EB1CD9CAA400445744 /* en */,
+				A0C543EC1CD9CAA400445744 /* es-MX */,
+				A0C543ED1CD9CAA400445744 /* es */,
+				A0C543EE1CD9CAA400445744 /* fi */,
+				A0C543EF1CD9CAA400445744 /* fr */,
+				A0C543F01CD9CAA400445744 /* he */,
+				A0C543F11CD9CAA400445744 /* hi-IN */,
+				A0C543F21CD9CAA400445744 /* hu */,
+				A0C543F31CD9CAA400445744 /* id */,
+				A0C543F41CD9CAA400445744 /* it */,
+				A0C543F51CD9CAA400445744 /* ja */,
+				A0C543F61CD9CAA400445744 /* ko */,
+				A0C543F71CD9CAA400445744 /* nl-NL */,
+				A0C543F81CD9CAA400445744 /* nl */,
+				A0C543F91CD9CAA400445744 /* pt-PT */,
+				A0C543FA1CD9CAA400445744 /* pt */,
+				A0C543FB1CD9CAA400445744 /* ru */,
+				A0C543FC1CD9CAA400445744 /* sv */,
+				A0C543FD1CD9CAA400445744 /* tr */,
+				A0C543FE1CD9CAA400445744 /* zh-Hans */,
+				A0C543FF1CD9CAA400445744 /* zh-Hant */,
+			);
+			name = CTAssetsPicker.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0C543851CD9C3C900445744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A0C543861CD9C3C900445744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0C543881CD9C3C900445744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "多图片选择框架的使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ifeng.creditapp.----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A0C543891CD9C3C900445744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "多图片选择框架的使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ifeng.creditapp.----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A0C5438B1CD9C3C900445744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "多图片选择框架的使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ifeng.creditapp.----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/多图片选择框架的使用.app/多图片选择框架的使用";
+			};
+			name = Debug;
+		};
+		A0C5438C1CD9C3C900445744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "多图片选择框架的使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ifeng.creditapp.----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/多图片选择框架的使用.app/多图片选择框架的使用";
+			};
+			name = Release;
+		};
+		A0C5438E1CD9C3C900445744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "多图片选择框架的使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ifeng.creditapp.----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "多图片选择框架的使用";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A0C5438F1CD9C3C900445744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "多图片选择框架的使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ifeng.creditapp.----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "多图片选择框架的使用";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0C543551CD9C3C900445744 /* Build configuration list for PBXProject "多图片选择框架的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0C543851CD9C3C900445744 /* Debug */,
+				A0C543861CD9C3C900445744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0C543871CD9C3C900445744 /* Build configuration list for PBXNativeTarget "多图片选择框架的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0C543881CD9C3C900445744 /* Debug */,
+				A0C543891CD9C3C900445744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0C5438A1CD9C3C900445744 /* Build configuration list for PBXNativeTarget "多图片选择框架的使用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0C5438B1CD9C3C900445744 /* Debug */,
+				A0C5438C1CD9C3C900445744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0C5438D1CD9C3C900445744 /* Build configuration list for PBXNativeTarget "多图片选择框架的使用UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0C5438E1CD9C3C900445744 /* Debug */,
+				A0C5438F1CD9C3C900445744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0C543521CD9C3C900445744 /* Project object */;
+}
