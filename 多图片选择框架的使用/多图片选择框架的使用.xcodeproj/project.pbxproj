@@ -19,6 +19,7 @@
 		A0C5436D1CD9C3C900445744 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C5436B1CD9C3C900445744 /* LaunchScreen.storyboard */; };
 		A0C543781CD9C3C900445744 /* __________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543771CD9C3C900445744 /* __________Tests.m */; };
 		A0C543831CD9C3C900445744 /* __________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C543821CD9C3C900445744 /* __________UITests.m */; };
+		A287DF55F07C932980F67874 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5E91053F20A009B33802922 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12EB198ACDDA7C5E4A90EE05 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		69EE40F8B5F9301B217E7759 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A06FB6DF1CDC484B00B01254 /* GetPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetPhotoViewController.h; sourceTree = "<group>"; };
 		A06FB6E01CDC484B00B01254 /* GetPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetPhotoViewController.m; sourceTree = "<group>"; };
 		A06FB6E11CDC484B00B01254 /* GetPhotoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GetPhotoViewController.xib; sourceTree = "<group>"; };
@@ -61,6 +64,7 @@
 		A0C5437E1CD9C3C900445744 /* 多图片选择框架的使用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "多图片选择框架的使用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0C543821CD9C3C900445744 /* __________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__________UITests.m"; sourceTree = "<group>"; };
 		A0C543841CD9C3C900445744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5E91053F20A009B33802922 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A287DF55F07C932980F67874 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,13 +93,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A06FB6E91CDC894E00B01254 /* Lib */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Lib;
-			sourceTree = "<group>";
-		};
 		A0C543511CD9C3C900445744 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +100,8 @@
 				A0C543761CD9C3C900445744 /* 多图片选择框架的使用Tests */,
 				A0C543811CD9C3C900445744 /* 多图片选择框架的使用UITests */,
 				A0C5435B1CD9C3C900445744 /* Products */,
+				FBE8053FF1748F793E7EA08C /* Pods */,
+				EDC64D9E4F8119BB4BB71292 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,7 +118,6 @@
 		A0C5435C1CD9C3C900445744 /* 多图片选择框架的使用 */ = {
 			isa = PBXGroup;
 			children = (
-				A06FB6E91CDC894E00B01254 /* Lib */,
 				A0C543601CD9C3C900445744 /* AppDelegate.h */,
 				A0C543611CD9C3C900445744 /* AppDelegate.m */,
 				A0C543631CD9C3C900445744 /* ViewController.h */,
@@ -164,6 +163,23 @@
 			path = "多图片选择框架的使用UITests";
 			sourceTree = "<group>";
 		};
+		EDC64D9E4F8119BB4BB71292 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5E91053F20A009B33802922 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBE8053FF1748F793E7EA08C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69EE40F8B5F9301B217E7759 /* Pods.debug.xcconfig */,
+				12EB198ACDDA7C5E4A90EE05 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -171,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0C543871CD9C3C900445744 /* Build configuration list for PBXNativeTarget "多图片选择框架的使用" */;
 			buildPhases = (
+				A7783A7F43F4F1D03A2238C0 /* Check Pods Manifest.lock */,
 				A0C543561CD9C3C900445744 /* Sources */,
 				A0C543571CD9C3C900445744 /* Frameworks */,
 				A0C543581CD9C3C900445744 /* Resources */,
+				404EE4E6A89F6E5D3CB0DA65 /* Embed Pods Frameworks */,
+				F9D4A709C229F2A8831F2D52 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -313,6 +332,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		404EE4E6A89F6E5D3CB0DA65 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7783A7F43F4F1D03A2238C0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F9D4A709C229F2A8831F2D52 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A0C543561CD9C3C900445744 /* Sources */ = {
@@ -460,6 +527,7 @@
 		};
 		A0C543881CD9C3C900445744 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69EE40F8B5F9301B217E7759 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "多图片选择框架的使用/Info.plist";
@@ -471,6 +539,7 @@
 		};
 		A0C543891CD9C3C900445744 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12EB198ACDDA7C5E4A90EE05 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "多图片选择框架的使用/Info.plist";
